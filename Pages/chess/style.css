@@ -10,9 +10,9 @@
 
 .white, .black{
     border: 1px solid black;
-    width: 10%;
+    width: 10px;
     height: 60px;
-    float:left;
+    float: left;
 }
 .black{
     background-color: #787878;
@@ -28,8 +28,8 @@
 }
 
 #container {
-    margin-top:20%;
-    margin-left:10%;
-    margin-right:10%;
-    margin-bottom:5%;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
 }
