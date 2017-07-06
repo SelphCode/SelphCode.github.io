@@ -17,14 +17,18 @@
 .black{
     background-color: #787878;
 }
-.white{
+.white {
     background-color: white;
-
+}
 #header {
     border: solid 1px;
     padding: 10px;
     margin: 10px;
     text-align: center;
+    font-family: 'LibHandDisRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size:36px;
 }
 
 #footer {
@@ -35,10 +39,6 @@
 }
 
 #title {
-    font-family: 'LibHandDisRegular';
-    font-weight: normal;
-    font-style: normal;
-    font-size:36px;
     position:fixed;
     top:0px;
     left:0px;
