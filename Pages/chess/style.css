@@ -24,14 +24,8 @@ body{
 .white {
     background-color: white;
 }
-#header {
+#header, #footer{
     border: solid 1px;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-}
-
-#footer {
     padding: 10px;
     margin: 10px;
     text-align: center;
