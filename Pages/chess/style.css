@@ -35,6 +35,10 @@
 }
 
 #title {
+    font-family: 'LibHandDisRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size:36px;
     position:fixed;
     top:0px;
     left:0px;
