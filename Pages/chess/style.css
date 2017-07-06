@@ -38,8 +38,9 @@ body{
 }
 
 #title {
+    height 10%;
     position:fixed;
-    top:5px;
+    top:0px;
     left:0px;
     padding:10px;
     margin:0px;
