@@ -25,14 +25,15 @@ body{
 .white {
     background-color: white;
 }
-#header, #footer{
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-}
 
+#container {
+    margin-top:5%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:5%;
+}
 #title {
-    height: 10%;
+    height:10%;
     position:fixed;
     top:0px;
     left:0px;
@@ -48,10 +49,8 @@ body{
     font-size:36px;
 }
 
-
-#container {
-    margin-top:5%;
-    margin-left:10%;
-    margin-right:10%;
-    margin-bottom:5%;
+#header, #footer{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
