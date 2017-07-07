@@ -1,4 +1,4 @@
-#body{
+body{
     background-image:url("https://selphcode.github.io/Images/pond1.jpg");
     height:100%;
     margin: 0;
@@ -26,9 +26,12 @@
 .white {
     background-color: white;
 }
-
+.img {
+    margin-left: 5px;
+    margin-top:10px;
+}
 #container {
-    margin-top:8%;
+    margin-top:20%;
     margin-left:10%;
     margin-right:10%;
     margin-bottom:5%;
