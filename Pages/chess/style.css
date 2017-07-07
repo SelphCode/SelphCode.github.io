@@ -45,7 +45,7 @@ body {
     margin-right:10%;
     margin-bottom:10%;
 }
-#title {
+#title, #header, #footer {
     background-color:saddlebrown;
     padding: 20px;
     margin: 20px;
