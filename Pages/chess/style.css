@@ -1,7 +1,9 @@
-.container{
-    background-image:url("https://selphcode.github.io/Images/pond1.jpg");
+html, body{
     height:100%;
-    margin: 10px;
+    margin: 0;
+}
+body {
+    background-image:url("https://selphcode.github.io/Images/pond1.jpg");
 }
 
 .row{
@@ -16,7 +18,7 @@
 
 .white, .black{
     border: 1px solid black;
-    width: 60px;
+    width: 10%;
     height: 60px;
     float: left;
 }
@@ -30,38 +32,32 @@
     margin-left: 5px;
     margin-top:10px;
 }
-#container {
+#footer {
+    background-color:saddlebrown;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    height:10%;
+}
+#container{
     margin-top:20%;
     margin-left:10%;
     margin-right:10%;
-    margin-bottom:5%;
+    margin-bottom:10%;
 }
 #title {
+    background-color:saddlebrown;
+    padding: 20px;
+    margin: 20px;
     height:10%;
     position:fixed;
     top:0px;
     left:0px;
-    padding:10px;
     margin:0px;
     width:100%;
-    background-color:saddlebrown;
     text-align:center;
     z-index:10;
-    font-family: 'LibHandDisRegular';
+    font-family: 'DatalegreyaDot';
     font-weight: normal;
     font-style: normal;
-    font-size:36px;
-}
-
-#header {
-    background-color:saddlebrown;
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
-}
-#footer {
-    background-color:saddlebrown;
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
 }
