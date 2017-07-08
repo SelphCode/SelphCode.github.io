@@ -48,7 +48,8 @@ body {
     top: 0px;
     left: 0px;
     padding: 10px;
-    margin: 0px;
+    margin-top: 2px;
+    margin-bottom:2px;
     width: 100%;
     background-color: saddlebrown;
     text-align: center;
