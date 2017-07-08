@@ -19,7 +19,7 @@ body {
 }
 
 .white, .black{
-    width: 10%;
+    width: 60px;
     height: 60px;
     float: left;
 }
