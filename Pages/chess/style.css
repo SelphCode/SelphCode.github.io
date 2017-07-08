@@ -37,6 +37,11 @@ body {
     text-align:center;
 
 }
+
+.img {
+    margin-left: 5px;
+    margin-top: 10px;
+}
 #container{
     margin:20%;
     margin-left:10%;
