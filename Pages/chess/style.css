@@ -47,7 +47,7 @@ body {
     margin-right:10%;
     margin-bottom:10%;
 }
-#title, #header {
+#title{
     background-color: saddlebrown;
     padding: 20px;
     margin: 20px;
@@ -58,8 +58,6 @@ body {
     width: 100%;
     text-align: center;
     z-index: 10;
-}
-h1{
     font-family: 'DatalegreyaDot';
     font-weight: normal;
     font-style: normal;
