@@ -1,13 +1,11 @@
 html, body{
     height:100%;
     margin: 0;
-    width:100%;
 }
 body {
     background-image:url("https://selphcode.github.io/Images/sunset1.jpg");
     height:100%;
     margin: 0;
-    width:100%;
 }
 
 .row{
@@ -40,12 +38,11 @@ body {
 
 }
 
-.img {
-    margin-left: 5px;
-    margin-top: 10px;
+img {
+
 }
 #container{
-    margin:20%;
+    margin-top:20%;
     margin-left:10%;
     margin-right:30%;
     margin-bottom:5%;
