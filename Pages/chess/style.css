@@ -5,7 +5,9 @@ html, body{
 }
 body {
     background-image:url("https://selphcode.github.io/Images/sunset1.jpg");
-
+    height:100%;
+    margin: 0;
+    width:100%;
 }
 
 .row{
