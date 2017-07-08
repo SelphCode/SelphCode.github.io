@@ -28,18 +28,11 @@ body {
 .white {
     background-color: white;
 }
-.img {
-    margin-left: 5px;
-    margin-top:10px;
-}
 #footer {
     background-color:saddlebrown;
-    padding: 20px;
-    margin: 0px;
+    padding: 10px;
+    margin: 10px;
     text-align: center;
-    height:100%;
-    position:fixed;
-    bottom:0px;
 }
 #container{
     margin-top:20%;
