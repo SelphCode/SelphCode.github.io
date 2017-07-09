@@ -41,8 +41,9 @@ li {
     height: 10em;
     margin-bottom: 1em;
     background-color: chocolate;}
-#feature{
-
-    background-size: contain;
-    background-position: center;
-}
+#feature {
+    background-color: #8CC63E;
+    background-image: url("https://selphcode.github.io/Images/pic2.JPG");
+    background-size:contain;
+    background-position: right;
+    background-repeat:no-repeat;}
