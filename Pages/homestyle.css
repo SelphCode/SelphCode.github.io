@@ -1,82 +1,55 @@
-
-#header{
-padding: 5em 0;
-    float: left;
-    width: 250px;
-    margin-left: -100%;
-    position: relative;
-    background: #B5E3FF;
-
-}
 * {
-    font-family: 'HiLoDecoDeco';
-    font-weight: normal;
-    font-style: normal;
-    color: peru;
-    margin: 0;
-    padding: 0;
-}
-html {
-    height: 100%;
-}
-article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
-    display: block;
+    font-family: Arial, Verdana, sans-serif ;
+    text-align: center;
 }
 body {
-    font: 12px/18px Arial, sans-serif;
-    height: 100%;
     width: 90%;
     margin: 0 auto;
-    background-color: darkslategray;
+    background-image: url("https://selphcode.github.io/Images/Pic1.JPG");
 }
-.wrapper {
-    width: 1000px;
-    margin: 0 auto;
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-}
-
-
-/* Middle
------------------------------------------------------------------------------*/
-.middle {
-    width: 100%;
-    padding: 0 0 100px;
-    position: relative;
-}
-.middle:after {
-    display: table;
-    clear: both;
-    content: '';
-}
-.container {
-    width: 100%;
+#content {
+    overflow: auto;}
+#nav, #feature, #footer {
+    margin: 1%;}
+.column1, .column2, .column3 {
+    width: 31.3%;
     float: left;
-    overflow: hidden;
+    margin: 1%;}
+.column1{
+    background-color: tan;
+
 }
-.content {
-    padding: 0 0 0 270px;
+.column2{background-color: chocolate}
+.column3 {
+    margin-right: 0%;
+    background-color: saddlebrown;
+    color: tan;
 }
-
-
-/* Left Sidebar
------------------------------------------------------------------------------*/
-.left-sidebar {
-    float: left;
-    width: 250px;
-    margin-left: -100%;
-    position: relative;
-    background: #B5E3FF;
+li {
+    display: inline;
+    padding: 0.5em;}
+#nav, #footer {
+    padding: 0.5em 0;}
+#feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+    text-align: center;
 }
-
-
-/* Footer
------------------------------------------------------------------------------*/
-.footer {
-    width: 1000px;
-    margin: -100px auto 0;
-    height: 100px;
-    background: #BFF08E;
-    position: relative;
+#nav, #footer {
+    background-color: burlywood;
+    padding: 0.5em 0;}
+#feature {
+    background-color: teal;
+    background-image: url("https://selphcode.github.io/Images/pic2.JPG" );
+    background-size:contain;
+    background-position: right;
+    background-repeat:no-repeat;}
+#footer{    background-color: olive;
+}
+h1{
+    color: tan;
+    font-family: 'UniqueRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 200%;
 }
