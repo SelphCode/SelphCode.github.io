@@ -1,7 +1,4 @@
 body {
-    font-family: 'DancingScriptRegular';
-    font-weight: normal;
-    font-style: normal;
     font-family: Helvetica, Arial, sans-serif;
     color: #665544;
     padding: 0 15% 0 15%;
@@ -11,6 +8,14 @@ h1, h2, p {
     padding: 12px;
     line-height: 2em;
     border: 20px rosybrown;
+}
+h1{
+    text-align:center;
+    color:blue;
+    font-family: 'DancingScriptRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size:400%;
 }
 i, a, a:hover, a:visited {
     color: #665544;
