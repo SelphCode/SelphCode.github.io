@@ -41,12 +41,8 @@ li {
     background-color: teal;
     text-align: left;
     padding:5px;}
-ul {
-    list-style: inside circle;
-    width: 300px;}
-li {
-    margin: 10px 0px 0px 0px;}
-#footer{    background-color: olive;
+#footer{
+    background-color: olive;
 }
 h1{
     color: tan;
