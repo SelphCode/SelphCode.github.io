@@ -17,6 +17,15 @@ h1{
     font-style: normal;
     font-size:400%;
 }
+p{
+    font-family: 'DancingScriptRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 200%;
+}
+i{
+    color:darkgreen;
+}
 i, a, a:hover, a:visited {
     color: #665544;
 }
