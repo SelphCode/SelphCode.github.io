@@ -3,3 +3,8 @@
     font-weight: normal;
     font-style: normal;
 }
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-color: olive;
+}
