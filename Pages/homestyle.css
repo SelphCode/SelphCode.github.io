@@ -30,7 +30,7 @@ li {
 #nav, #footer {
     padding: 0.5em 0;}
 #commentary, .article {
-    height: 5em;
+    height: 5%;
     margin-bottom: 1em;
     text-align: center;
 }
@@ -40,8 +40,12 @@ li {
 #commentary {
     background-color: teal;
     text-align: left;
-    padding:10px;
-}
+    padding:5px;}
+ul {
+    list-style: inside circle;
+    width: 300px;}
+li {
+    margin: 10px 0px 0px 0px;}
 #footer{    background-color: olive;
 }
 h1{
