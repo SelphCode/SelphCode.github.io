@@ -25,10 +25,7 @@ li {
 #feature, .article {
     height: 10em;
     margin-bottom: 1em;
-    background-color: chocolate;}
-#content {
-    margin: 1%;
-    background-color: sienna;
+    background-color: chocolate;
 }
 #nav, #footer {
     background-color: chocolate;
