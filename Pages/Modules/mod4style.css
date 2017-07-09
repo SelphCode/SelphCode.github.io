@@ -26,6 +26,7 @@ li {
     height: 10em;
     margin-bottom: 1em;
     background-color: #efefef;}
-#menu,#feature, .column1,.column2,.column3, {
+#menu,#feature, .column1,.column2,.column3,#footer {
+    padding:10%;
     background-color: chocolate;
 }
