@@ -47,7 +47,9 @@ li {
 #footer{    background-color: olive;
 }
 h1{
+    color: tan;
     font-family: 'UniqueRegular';
     font-weight: normal;
     font-style: normal;
+    font-size: 200%;
 }
