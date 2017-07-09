@@ -8,7 +8,6 @@ body {
 }
 #content {
     overflow: auto;
-text-align:center;}
 #nav, #commentary, #footer {
     margin: 1%;}
 .column1, .column2, .column3 {
