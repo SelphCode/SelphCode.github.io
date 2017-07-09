@@ -39,10 +39,7 @@ li {
     padding: 0.5em 0;}
 #feature {
     background-color: teal;
-    background-image: url("https://selphcode.github.io/Images/pic2.JPG" );
-    background-size:contain;
-    background-position: right;
-    background-repeat:no-repeat;}
+}
 #footer{    background-color: olive;
 }
 h1{
