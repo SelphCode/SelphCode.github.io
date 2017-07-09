@@ -27,6 +27,7 @@ li {
     height: 10em;
     margin-bottom: 1em;
     background-color: chocolate;
+    text-align: center;
 }
 #nav, #footer {
     background-color: chocolate;
