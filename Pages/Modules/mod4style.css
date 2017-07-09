@@ -8,6 +8,11 @@ body {
     margin: 0 auto;
     background-image: url("https://selphcode.github.io/Images/Pic1.JPG");
 }
+header {
+            font-family: 'UniqueRegular';
+            font-weight: normal;
+            font-style: normal;
+}
 #content {
     overflow: auto;}
 #nav, #feature, #footer {
