@@ -26,6 +26,6 @@ p{
 i{
     color:darkgreen;
 }
-i, a, a:hover, a:visited {
+a, a:hover, a:visited {
     color: #665544;
 }
