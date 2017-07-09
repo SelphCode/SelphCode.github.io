@@ -26,7 +26,7 @@ li {
     height: 10em;
     margin-bottom: 1em;
     background-color: chocolate;}
-.column1, .column2, .column3 {
+#content {
     width: 31.3%;
     float: left;
     margin: 1%;
