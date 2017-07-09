@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
 }
 #content {
-    overflow: auto;
+    overflow: auto;}
 #nav, #commentary, #footer {
     margin: 1%;}
 .column1, .column2, .column3 {
@@ -40,7 +40,7 @@ li {
 #commentary {
     background-color: teal;
     text-align: left;
-    padding:0px;}
+    padding:5px;}
 #footer{
     background-color: olive;
 }
