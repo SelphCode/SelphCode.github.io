@@ -56,18 +56,3 @@ body {
     margin:5%;
     align-content:center;
 }
-#title{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    padding: 10px;
-    margin-top: 2px;
-    margin-bottom:2px;
-    width: 100%;
-    background-color: saddlebrown;
-    text-align: center;
-    z-index: 10;
-    font-family: 'DatalegreyaDot';
-    font-weight: normal;
-    font-style: normal;
-}
