@@ -4,7 +4,7 @@ body {
     padding: 0 15% 0 15%;
     background-image:url("https://selphcode.github.io/Images/pic2.jpg");
 }
-h1, h2, p {
+h1, h2, p, footer{
     padding: 12px;
     line-height: 2em;
     border: 20px solid rosybrown;
