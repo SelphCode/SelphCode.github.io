@@ -25,6 +25,7 @@ header {
     background-color: tan;
 
 }
+.column2{background-color: chocolate}
 .column3 {
     margin-right: 0%;
     background-color: saddlebrown;
@@ -42,10 +43,6 @@ li {
 #nav, #footer {
     background-color: burlywood;
     padding: 0.5em 0;}
-#feature, .article {
-    height: 10em;
-    margin-bottom: 1em;
-}
 #feature {
     background-color: teal;
     background-image: url("https://selphcode.github.io/Images/pic2.JPG" );
