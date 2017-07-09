@@ -2,13 +2,13 @@
     font-family: 'HiLoDecoDeco';
     font-weight: normal;
     font-style: normal;
-    font-size: 100%;
-    color: sandybrown;
+    font-size: 120%;
+    color: slategrey;
 }
 body {
     width: 90%;
     margin: 0 auto;
-    background-color: olive;
+    background-color: forestgreen;
 }
 #nav{
 padding: 0.5em 0;}
