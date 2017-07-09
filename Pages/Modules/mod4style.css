@@ -21,7 +21,7 @@ header {
     width: 31.3%;
     float: left;
     margin: 1%;}
-.article column1{
+.column1{
     background-color: tan;
 
 }
@@ -37,7 +37,6 @@ li {
 #feature, .article {
     height: 10em;
     margin-bottom: 1em;
-    background-color: chocolate;
     text-align: center;
 }
 #nav, #footer {
