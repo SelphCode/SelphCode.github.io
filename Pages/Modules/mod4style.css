@@ -21,8 +21,14 @@ header {
     width: 31.3%;
     float: left;
     margin: 1%;}
+.column1{
+    background-color: tan;
+
+}
 .column3 {
-    margin-right: 0%;}
+    margin-right: 0%;
+    background-color: saddlebrown;
+}
 li {
     display: inline;
     padding: 0.5em;}
@@ -42,8 +48,8 @@ li {
     margin-bottom: 1em;
     background-color: chocolate;}
 #feature {
-    background-color: #8CC63E;
-    background-image: url("https://selphcode.github.io/Images/pic2.JPG");
+    background-color: teal;
+    background-image: url("https://selphcode.github.io/Images/pic2.JPG" );
     background-size:contain;
     background-position: right;
     background-repeat:no-repeat;}
