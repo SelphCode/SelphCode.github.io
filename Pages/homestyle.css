@@ -8,7 +8,7 @@ body {
 }
 #content {
     overflow: auto;}
-#nav, #feature, #footer {
+#nav, #commentary, #footer {
     margin: 1%;}
 .column1, .column2, .column3 {
     width: 31.3%;
@@ -29,7 +29,7 @@ li {
     padding: 0.5em;}
 #nav, #footer {
     padding: 0.5em 0;}
-#feature, .article {
+#commentary, .article {
     height: 10em;
     margin-bottom: 1em;
     text-align: center;
@@ -37,7 +37,7 @@ li {
 #nav, #footer {
     background-color: burlywood;
     padding: 0.5em 0;}
-#feature {
+#commentary {
     background-color: teal;
 }
 #footer{    background-color: olive;
