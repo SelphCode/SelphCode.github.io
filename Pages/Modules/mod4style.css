@@ -42,6 +42,7 @@ li {
     margin-bottom: 1em;
     background-color: chocolate;}
 #feature{
+
     background-size: contain;
     background-position: center;
 }
