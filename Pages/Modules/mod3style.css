@@ -29,3 +29,6 @@ i{
 a, a:hover, a:visited {
     color: #665544;
 }
+#footer{
+    align-content: center;
+}
