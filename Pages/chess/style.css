@@ -20,7 +20,7 @@ body {
 
 .white, .black{
     width: 10%;
-    height: 10%;
+    height: 80px;
     float: left;
 }
 .black{
