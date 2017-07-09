@@ -45,7 +45,7 @@ li {
 #feature, .article {
     height: 10em;
     margin-bottom: 1em;
-    background-color: chocolate;}
+}
 #feature {
     background-color: teal;
     background-image: url("https://selphcode.github.io/Images/pic2.JPG" );
