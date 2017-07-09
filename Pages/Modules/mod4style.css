@@ -28,7 +28,7 @@ li {
     background-color: chocolate;}
 #content {
     margin: 1%;
-    background-color: chocolate;
+    background-color: sienna;
 }
 #nav, #footer {
     background-color: chocolate;
@@ -36,4 +36,4 @@ li {
 #feature, .article {
     height: 10em;
     margin-bottom: 1em;
-    background-color: #efefef;}
+    background-color: chocolate;}
