@@ -56,4 +56,6 @@ body {
 #container{
     margin:5%;
     align-content:center;
+    padding:10px;
+    border-color:saddlebrown;
 }
