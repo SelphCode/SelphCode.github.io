@@ -3,12 +3,12 @@
     font-weight: normal;
     font-style: normal;
     font-size: 120%;
-    color: darkslategray;
+    color: peru;
 }
 body {
     width: 90%;
     margin: 0 auto;
-    background-color: darkolivegreen;
+    background-color: darkslategray;
 }
 #nav{
 padding: 0.5em 0;}
