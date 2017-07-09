@@ -15,6 +15,9 @@ body {
 }
 #title{
     position: fixed;
+    font-family: 'DatalegreyaDot';
+    font-weight: normal;
+    font-style: normal;
     top: 0px;
     left: 0px;
     padding: 10px;
@@ -24,9 +27,6 @@ body {
     background-color: saddlebrown;
     text-align: center;
     z-index: 10;
-    font-family: 'DatalegreyaDot';
-    font-weight: normal;
-    font-style: normal;
 }
 .clear {
     clear:both;
