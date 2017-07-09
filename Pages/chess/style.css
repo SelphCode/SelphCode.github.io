@@ -6,6 +6,8 @@ body {
     background-image:url("https://selphcode.github.io/Images/sunset1.jpg");
     height:100%;
     margin: 10px;
+    padding:10px;
+    border-color:saddlebrown;
 }
 
 .row{
@@ -56,6 +58,4 @@ body {
 #container{
     margin:5%;
     align-content:center;
-    padding:10px;
-    border-color:saddlebrown;
 }
