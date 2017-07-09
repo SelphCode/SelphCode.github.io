@@ -32,7 +32,7 @@ li {
 #commentary, .article {
     height: 2%;
     margin-bottom: 1em;
-    text-align: center;
+    text-align: left;
 }
 #nav, #footer {
     background-color: burlywood;
