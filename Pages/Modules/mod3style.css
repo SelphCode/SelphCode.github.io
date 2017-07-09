@@ -2,11 +2,10 @@ body {
     font-family: 'DancingScriptRegular';
     font-weight: normal;
     font-style: normal;
+    font-family: Helvetica, Arial, sans-serif;
     color: #665544;
-    padding: 22px;
-    background-image:url("https://selphcode.github.io/Images/pond1.jpg");
-    height:100%;
-    margin: 10px;
+    padding: 0 15% 0 15%;
+    background-image:url("https://selphcode.github.io/Images/pic2.jpg");
 }
 h1, h2, p {
     padding: 12px;
