@@ -39,7 +39,7 @@ li {
     padding: 0.5em 0;}
 #commentary {
     background-color: teal;
-    text-align: left;
+    text-align:justify;
     padding:5px;}
 #footer{
     background-color: olive;
