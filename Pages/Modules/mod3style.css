@@ -7,7 +7,6 @@ body {
 h1, h2, p, footer{
     padding: 12px;
     line-height: 2em;
-    border: 20px solid rosybrown;
 }
 h1{
     text-align:center;
