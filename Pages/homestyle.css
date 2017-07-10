@@ -21,8 +21,8 @@ overflow:auto;
     padding: 1px;
 }
 
-#clear {
-    clear: page;
+.clear {
+    clear: both;
 }
 h3{color:black;}
 .column1{
