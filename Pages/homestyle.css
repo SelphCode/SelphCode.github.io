@@ -21,7 +21,7 @@ overflow:auto;
     padding: 1px;
 }
 
-.clear {
+#clear {
     clear: page;
 }
 h3{color:black;}
