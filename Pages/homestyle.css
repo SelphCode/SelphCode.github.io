@@ -19,20 +19,16 @@ overflow:auto;
     float: left;
     margin: 3px;
     padding: 1px;
+    background-color: burlywood;
+    height: auto;
+
 }
 
 .clear {
     clear: both;
 }
 h3{color:black;}
-.column1{
-    background-color: burlywood;
-}
-.column2{background-color: burlywood}
 
-.column3 {
-    background-color: burlywood;
-}
 li {
     display: inline;
     padding: 1px;
