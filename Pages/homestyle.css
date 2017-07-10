@@ -5,20 +5,22 @@
 body {
     width: 90%;
     margin: 0 auto;
+    background-color: #665544;
 }
-#content {
-    overflow: auto;}
 #nav, #commentary, #footer {
+    padding:10px;
+    font-size: larger;
     margin: 1%;}
 .column1, .column2, .column3 {
     width: 31.3%;
     float: left;
     margin: 1%;}
+
 .column1{
     background-color: burlywood;
-    text-align: justify;
 }
 .column2{background-color: burlywood}
+
 .column3 {
     margin-right: 0%;
     background-color: burlywood;
@@ -29,19 +31,19 @@ li {
     padding: 0.5em;}
 #commentary, .article {
     height: 2%;
-    margin-bottom: 1em;
     text-align: left;
 }
 #nav{
     background-color: burlywood;
-    padding: 0.5em 0;}
+    padding: 5px;}
 #commentary {
     background-color: olive;
     text-align:justify;
     padding:5px;}
 #footer{
+
     background-color: olive;
-    text-align: center;
+
 }
 h1{
     color: tan;
