@@ -15,13 +15,14 @@ body {
     float: left;
     margin: 1%;}
 .column1{
-    background-color: tan;
+    background-color: burlywood;
+    text-align: justify;
 }
-.column2{background-color: chocolate}
+.column2{background-color: burlywood}
 .column3 {
     margin-right: 0%;
-    background-color: saddlebrown;
-    color: tan;
+    background-color: burlywood;
+    color: black;
 }
 li {
     display: inline;
@@ -31,15 +32,16 @@ li {
     margin-bottom: 1em;
     text-align: left;
 }
-#nav, #footer {
+#nav{
     background-color: burlywood;
     padding: 0.5em 0;}
 #commentary {
-    background-color: teal;
+    background-color: olive;
     text-align:justify;
     padding:5px;}
 #footer{
     background-color: olive;
+    text-align: center;
 }
 h1{
     color: tan;
