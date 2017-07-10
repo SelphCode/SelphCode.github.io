@@ -14,7 +14,7 @@ overflow:auto;
 #nav, #commentary, #footer {
     margin: 1%;}
 .column1, .column2, .column3 {
-    width: 31%;
+    width: 30%;
     float: left;
     margin: 5px;
     padding: 1px;
