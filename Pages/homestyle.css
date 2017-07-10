@@ -21,7 +21,7 @@ overflow:auto;
 }
 
 .clear {
-    clear:page;
+    clear:both;
 }
 h3{color:black;}
 .column1{
