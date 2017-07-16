@@ -1,11 +1,10 @@
 function myFunction() {
-    var txt;
-    var name = prompt("Please enter your name:", "YOUR NAME HERE");
-    if (name == null || name == "") {
-        txt = "User cancelled the prompt.";
-    } else {
-        txt = "Hello " + name + "! How are you today?";
+        var txt;
+        var person = prompt("Please enter your name:", "Loa Friday");
+        if (person == null || person == "") {
+            txt = "User declined to share.";
+        } else {
+            txt = "Welcome " + person + "!";
+        }
+        document.getElementById("persona").innerHTML = txt;
     }
-    document.getElementById("name").value = txt;
-}
-
