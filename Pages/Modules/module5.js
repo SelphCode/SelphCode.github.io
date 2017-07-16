@@ -1,8 +1,8 @@
 function myFunction() {
         var txt;
-        var person = prompt("Please enter your name:", "Loa Friday");
+        var person = prompt("Please enter your first name:", "Example");
         if (person == null || person == "") {
-            txt = "User declined to share.";
+            txt = "User declined a greeting.";
         } else {
             txt = "Welcome " + person + "!";
         }
