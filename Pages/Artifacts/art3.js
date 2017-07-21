@@ -16,7 +16,7 @@ function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
         rLine +="<p>";
 //fill in the left side of every row with spaces or blanks
 for (x=1; x<=pHeight-i;x++){
-    rLine+="-";
+    rLine+="<p>";
 }
 //Create each line on the Rhombus
         for(j=x;j<=pHeight;j++){
