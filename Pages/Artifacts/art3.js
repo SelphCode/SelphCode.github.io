@@ -38,7 +38,7 @@ function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 
     }
 
-    document.getElementById("upRight").innerHTML = rLine;
+    document.getElementById("upLeft").innerHTML = rLine;
 }
 
 function upRight(pHeight, pColorEven, pColorOdd, pSymbol){
@@ -86,7 +86,7 @@ function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 
     }
 
-    document.getElementById("downRight").innerHTML = rLine;
+    document.getElementById("downLeft").innerHTML = rLine;
 }
 
 function downRight(pHeight, pColorEven, pColorOdd, pSymbol){
