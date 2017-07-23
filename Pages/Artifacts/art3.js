@@ -25,7 +25,7 @@ function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
             rLine +="<span class='space'>" + pSymbol +"</span>";
         }
 //Create each line on the Rhombus
-        for(j=x;j<=pHeight;j++){
+        for(j=x-1;j<=pHeight;j++){
 
 //Is the position even or odd so we change the color
             if (j%2)
