@@ -71,7 +71,7 @@ function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
         rLine +="<p>";
 
 //fill in the left side of every row with spaces or blanks
-        for (x=1; x<=pHeight-i;x++){
+        for (x=1; x<=pHeight;x++){
             rLine +="<span class='space'>" + pSymbol +"</span>";
         }
 //Create each line on the Rhombus
@@ -96,7 +96,7 @@ function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 
 function downRight(pHeight, pColorEven, pColorOdd, pSymbol){
     var rLine ="";
-    for (i=pHeight;i > 0;i--){
+    for (i=0;i > 0;i--){
         rLine +="<p>";
 //Create each line on the Rhombus
         for(j=0;j<i;j++){
