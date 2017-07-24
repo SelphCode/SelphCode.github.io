@@ -27,10 +27,10 @@ function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 //Is the position even or odd so we change the color
             if (j%2)
 //even
-                rLine +="<span style='color:" + pColorEven + ";'>" + pSymbol +"</span>";
+                rLine +="<span style='color" + pColorEven + ";'>" + pSymbol +"</span>";
             else
 //odd
-                rLine +="<span style='color:" + pColorOdd + ";'>" + pSymbol +"</span>";
+                rLine +="<span style='color" + pColorOdd + ";'>" + pSymbol +"</span>";
 
         }
         rLine +="</p>";
@@ -104,10 +104,10 @@ function downRight(pHeight, pColorEven, pColorOdd, pSymbol){
 //Is the position even or odd so we change the color
             if (j%2)
 //even
-                rLine +="<span style='color:" + pColorEven + ";'>" + pSymbol +"</span>";
+                rLine +="<span style='color" + pColorEven + ";'>" + pSymbol +"</span>";
             else
 //odd
-                rLine +="<span style='color:" + pColorOdd + ";'>" + pSymbol +"</span>";
+                rLine +="<span style='color" + pColorOdd + ";'>" + pSymbol +"</span>";
 
         }
         rLine +="</p>";
