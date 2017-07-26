@@ -66,31 +66,25 @@ function upRight(pHeight, pColorEven, pColorOdd, pSymbol){
 }
 
 function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
-    var rLine ="";
-    for (i=1;i<=pHeight;i++){
-        rLine +="<p>";
-
-//fill in the left side of every row with spaces or blanks
-        for (x=1; x<=pHeight;x++){
-            rLine +="<span class='space'>" + pSymbol +"</span>";
-        }
+        var rLine ="";
+        for (i=pHeight;i > 0;i--){
+            rLine +="<p>";
 //Create each line on the Rhombus
-        for(j=0;j<i;j++){
+            for(j=0;j<i;j++){
 
 //Is the position even or odd so we change the color
-            if (j%2)
+                if (j%2)
 //even
-                rLine +="<span style='color:" + pColorEven + ";'>" + pSymbol +"</span>";
-            else
+                    rLine +="<span style='color:" + pColorEven + ";'>" + pSymbol +"</span>";
+                else
 //odd
-                rLine +="<span style='color:" + pColorOdd + ";'>" + pSymbol +"</span>";
+                    rLine +="<span style='color:" + pColorOdd + ";'>" + pSymbol +"</span>";
 
-        }
-        rLine +="</p>";
+            }
+            rLine +="</p>";
 // console.log(rLine);
 
-    }
-
+        }
     document.getElementById("downLeft").innerHTML = rLine;
 }
 
