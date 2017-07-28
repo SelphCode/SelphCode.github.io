@@ -7,24 +7,24 @@
     <title>Artifact 3 - Rhombus</title>
 </head>
 <body>
-<label for="pHeight">What is the size of Rhombus?</label><br>
+<label for="pHeight">Pick a size for your diamond design, please.</label><br>
 <input type="text" id="pHeight" value="6" size="5">
 <br>
-<label for="colorEven">Choose color for Even position</label><br>
+<label for="colorEven">Choose a color for Even</label><br>
 <select id="colorEven">
     <option value="#0000FF">Blue</option>
     <option value="#FF0000">Red</option>
     <option value="#FF9900">Orange</option>
 </select><br>
 
-<label for="colorOdd">Choose color for Odd position</label><br>
+<label for="colorOdd">Select a color for Odd</label><br>
 <select id="colorOdd">
     <option value="#FF0099">Pink</option>
     <option value="#33FF00">Green</option>
     <option value="#660099">Purple</option>
 </select>
 <br>
-<label for="symbol">Choose symbol for Rhombus</label>
+<label for="symbol">Finally, choose a symbol for the Rhombus</label>
 <select id="symbol">
     <option value="%">%</option>
     <option value="!">!</option>
@@ -34,7 +34,7 @@
 <button onclick="createRhombus(document.getElementById('pHeight').value,
 document.getElementById('colorEven').value,
 document.getElementById('colorOdd').value,
-document.getElementById('symbol').value);">Display Rhombus</button>
+document.getElementById('symbol').value);">You have designed a shape!</button>
 <div id="upLeft"></div>
 <div id="upRight"></div>
 <div class="clear"></div>
