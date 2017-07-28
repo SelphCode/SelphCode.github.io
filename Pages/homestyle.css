@@ -4,7 +4,7 @@
     color:black;
 }
 body,header {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     background-color: peru;
 }
@@ -47,6 +47,7 @@ li {
     padding:5px;}
 #footer{
     background-color: olive;
+    width:100%;
     padding:5px 0;
 }
 h1{
