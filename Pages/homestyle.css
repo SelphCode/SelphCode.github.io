@@ -1,9 +1,8 @@
 * {
-    font-family: Arial, Verdana, sans-serif ;
-    text-align: center;
-    color:black;
+    font-family: 'PecitaBook';
+    font-weight: normal;
+    font-style: normal;
 }
-
 li {
     display: inline;
     padding: 1px;
