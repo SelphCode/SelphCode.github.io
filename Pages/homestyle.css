@@ -9,11 +9,6 @@ li {
     display: inline;
 }
 
-body,header {
-    width: 100%;
-    margin: 0 auto;
-    background-color: #604830;
-}
 wrap{
     width:940px;
     padding: 20px;
