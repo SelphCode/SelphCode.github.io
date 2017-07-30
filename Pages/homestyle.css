@@ -12,7 +12,7 @@ li {
 body,header {
     width: 100%;
     margin: 0 auto;
-    background-color: peru;
+    background-color: #604830;
 }
 
 h1{
@@ -33,9 +33,6 @@ h1{
 .column1, .column2, .column3 {
     width: 30%;
     float: left;
-    margin: 3px;
-    padding: 1px;
-    background-color: burlywood;
     height: auto;
 }
 
@@ -48,9 +45,8 @@ h1{
     text-align: left;
 }
 
-#nav{
-    background-color: saddlebrown;}
-
+#nav {
+}
 #commentary {
     background-color: olive;
     text-align:justify;
