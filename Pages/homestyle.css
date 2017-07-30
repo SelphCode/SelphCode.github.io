@@ -25,32 +25,12 @@ h1{
 }
 #content{
     overflow:auto;
-
 }
-
-#nav, #commentary, #footer {
-    margin: 1%;}
-
 .column1, .column2, .column3 {
     width: 30%;
     float: left;
     height: auto;
 }
-
 .clear {
     clear: both;
-}
-
-#commentary, .article {
-    margin:.25em;
-    text-align: left;
-}
-
-#nav {
-}
-#commentary {
-    text-align:justify;}
-
-#footer{
-    width:100%;
 }
