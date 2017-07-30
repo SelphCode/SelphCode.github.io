@@ -27,7 +27,7 @@ h1{
     overflow:auto;
 }
 .column1, .column2, .column3 {
-    width: 30%;
+    width: 33%;
     float: left;
     height: auto;
 }
