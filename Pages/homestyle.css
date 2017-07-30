@@ -11,10 +11,10 @@ li {
 
 #wrap{
     width:940px;
-    padding: 50px;
+    padding: 20px;
     border:5px solid #BFD9C1;
     border-radius: 10px;
-    margin:10px auto 10px auto;
+    margin:50px auto 10px auto;
 }
 h1{
     color: #E9E5D1;
