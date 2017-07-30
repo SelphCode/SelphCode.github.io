@@ -48,11 +48,8 @@ h1{
 #nav {
 }
 #commentary {
-    background-color: olive;
-    text-align:justify;
-    padding:5px;}
+    text-align:justify;}
 
 #footer{
-    background-color: olive;
     width:100%;
 }
