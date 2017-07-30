@@ -14,7 +14,9 @@ body,header {
     margin: 0 auto;
     background-color: #604830;
 }
-
+wrap{
+    width:960px;
+}
 h1{
     color: #E9E5D1;
     font-family: 'PecitaBook';
