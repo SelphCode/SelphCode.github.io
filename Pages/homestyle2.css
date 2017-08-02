@@ -48,6 +48,13 @@ h1{
     border-radius: 10px;
     color: #BFD9C1;
 
+
+    -moz-box-shadow:10px 10px 5px #000000;
+    -webkit-box-shadow:10px 10px 5px #000000;
+    box-shadow:10px 10px 5px #000000;
+
+
+
 }
 #header p {
     font-size: 75%;
