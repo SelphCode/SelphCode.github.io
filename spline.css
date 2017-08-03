@@ -64,7 +64,7 @@ img {
     text-align: center;
 }
 #left-sidebar {
-    width: 250px;
+    width: 350px;
     float: left;
     padding-left: 10px;
     padding-top: 20px;
@@ -73,7 +73,7 @@ img {
     margin-top: 10px;
     margin-left: 10px;
     height:100%;
-    font-size: 1.8em;
+    font-size: 2em;
     clear: both;
 }
 #left-sidebar h1{
@@ -186,8 +186,7 @@ h4{
 #feature-content {
     overflow: scroll;
     float: left;
-    position: static;
-    width: 700px;
+    width: 600px;
     font-family: 'RiseStarHandRegular', Arial, Verdana, sans-serif;
     font-weight: normal;
     font-style: normal;
