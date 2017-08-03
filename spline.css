@@ -185,6 +185,7 @@ h4{
 
 #feature-content {
     overflow: scroll;
+    float: left;
     position: static;
     width: 700px;
     font-family: 'RiseStarHandRegular', Arial, Verdana, sans-serif;
