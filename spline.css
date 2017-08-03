@@ -29,7 +29,7 @@ img {
 
 }
 #page-wrap {
-    min-width: 1049px;
+    max-width: 1049px;
     width:auto;
 }
 #page-wrap #inside {
@@ -184,6 +184,7 @@ h4{
 #feature-content {
     overflow: visible;
     float: left;
+    min-width: 700px;
     width: 700px;
     font-family: 'RiseStarHandRegular', Arial, Verdana, sans-serif;
     font-weight: normal;
