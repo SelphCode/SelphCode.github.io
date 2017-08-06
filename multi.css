@@ -58,11 +58,12 @@ body {
 #header h1{
     border: thick;
     background-color: #005075;
-    -webkit-border-radius: 50px 0 0 0;
-    -moz-border-radius: 50px 0 0 0;
+    -webkit-border-radius: 50px 50px 0 0;
+    -moz-border-radius: 50px 50px 0 0;
     border-radius: 50px 50px 0 0;
     float:right;
     width:50%;
+    height:auto;
     color: #F6E1E5;
     margin:auto;
     position: relative;
