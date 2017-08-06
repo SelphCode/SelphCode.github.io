@@ -183,6 +183,14 @@ h4{
 
 
 }
+.clipwrapper{
+    position:relative;
+    height:225px;
+}
+.clip{
+    position:absolute;
+    clip:rect(50px 218px 155px 82px);
+}
 .clearfix:after
 {
     content:".";
@@ -293,13 +301,13 @@ h4{
   }
 
 table {
-    border-spacing: 0px;}
+    border-spacing: 0;}
 th, td {
     padding: auto;
     overflow: hidden;
-    border-spacing: 0px;
+    border-spacing: 0;
     font-size: 90%;
-    margin: 0px;}
+    margin: 0;}
 th, td {
     text-align: left;
     background-color: inherit;
@@ -324,3 +332,22 @@ tr.head th:last-child {
     -webkit-border-top-right-radius: 5px;
     -moz-border-radius-topright: 5px;
     border-top-right-radius: 5px;}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    background: url("Images/meal.jpg");
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin:0;
+    padding:auto;
+clear: both;}
+
+.avatar ul{
+    float:left;
+    display: inline-block;
+    position: inherit;
+    clear: both;
+}
+    /* etc */
