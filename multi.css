@@ -1,0 +1,292 @@
+* {
+    color:#B2B2FF;
+    background-color: #001C2A;
+    margin: 0;
+    height: auto;
+    width: auto;
+    border-width: 10px;
+    border-color: white;
+    border-style: hidden;
+    padding:1%;
+}
+body {
+    font-size: 90%;
+    margin:0;
+    border-color: green;
+    display: inline-block;
+    width:auto;
+    clear: both;
+    height: auto;
+    position: inherit;
+    float: inherit;
+    border-style: hidden;
+}
+#header
+{   border: thick;
+    border-style: hidden;
+    border-color: black;
+    height:auto;
+    width: auto;
+    margin: auto;
+    position: inherit;
+    float: inherit;
+    clear: both;
+    font-family: 'NowRegular', Arial, Verdana, sans-serif;
+;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#header p{
+    border: thick;
+   background-color: #005075;
+    -webkit-border-radius: 50px 0 50px 50px;
+    -moz-border-radius: 50px 0 50px 50px;
+    border-radius: 50px 0 50px 50px;
+    float:right;
+    color:#D7EBFE;
+    width:60%;
+    font-size:100%;
+    font-family: 'NowRegular', Arial, Verdana, sans-serif;
+;
+
+    margin:auto;
+    position: relative;
+    text-align:center;
+}
+#header h1{
+    border: thick;
+    background-color: #005075;
+    -webkit-border-radius: 50px 0 0 0;
+    -moz-border-radius: 50px 0 0 0;
+    border-radius: 50px 50px 0 0;
+    float:right;
+    width:50%;
+    color: #F6E1E5;
+    margin:auto;
+    position: relative;
+    text-align:center;
+}
+
+h2 {
+    font-family: 'GlacialIndifferenceRegular', Arial, Verdana, sans-serif;
+    font-size: x-large;
+    border-style: hidden;
+    border-bottom-color: #005075;
+    border-bottom-style: dotted;
+    margin:auto;
+}
+h1 {
+    color:#17bbef;
+
+    font-family: 'NowBlack', Arial, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-bottom-color: #D7EBFE;
+    height:auto;
+    width:auto;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+
+}
+h4{
+    font-family: 'GlacialIndifferenceRegular', Arial, Verdana, sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align:left;
+    font-size:larger;
+    border-style: hidden;
+    border-bottom-color: #D7EBFE;
+    overflow: visible;
+    margin:auto;
+}
+#page-wrap {
+    width: auto;
+    padding:1%;
+    border-color: blue;
+    border-style: hidden;
+    color:#D9D9FF;
+    height:auto;
+    text-align:left;
+    margin: auto;
+    position: inherit;
+    clear: both;
+    float: left;
+}
+#feature-content {
+    display:inline-block;
+    position: relative;
+    float: left;
+    width: 50%;
+    font-family: 'GlacialIndifferenceRegular', Arial, Verdana, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    border-style: hidden;
+    border-radius: 10px;
+    margin: auto;
+    -moz-box-shadow:10px 10px 5px 1px #005075;
+    -webkit-box-shadow:10px 10px 5px 1px #005075;
+    box-shadow:10px 10px 5px 1px #005075;
+    text-align: center;
+    font-size:20px;
+    font-kerning: normal;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#feature-content p{
+    font-size:20px;
+    font-kerning: normal;
+    margin: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+    height:inherit;
+    text-indent: 8%;
+}
+#left-sidebar {
+    width: 30%;
+    float: left;
+    position:relative;
+    font-family: 'NunitoSansRegular', Arial, Verdana, sans-serif;
+    margin-right: 4%;
+    font-size: 85%;
+    border-color: #005075;
+    background-color: #005075;
+    border-width:20px;
+    border-style: groove;
+    height:auto;
+    -webkit-border-radius: 100px 50px 50px 50px;
+    -moz-border-radius: 100px 50px 50px 50px;
+    border-radius: 100px 50px 50px 50px;
+    overflow: hidden;
+}
+#left-sidebar h1{
+    background-color: #005075;
+    color:#FFFFFF;
+    font-family: 'NunitoSansRegular', Arial, Verdana, sans-serif;
+    width:auto;
+}
+#left-sidebar p {
+    font-size: 100%;
+    font-kerning: normal;
+    margin: 0;
+    padding: 20px;
+    text-align: left;
+    overflow-y: visible;
+    background-color: #005075;
+    height:auto;
+    color:#E4F1FE;
+    text-indent: 8%;
+    width:auto;
+
+
+}
+.clearfix:after
+{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+.clearfix
+{
+    display:inline-block;
+}
+#inside {
+    position: relative;
+    border-style: hidden;
+    border-color: #adffda;
+    margin: auto;
+    border-width: 10px;
+    padding: 2%;
+    float: left;
+    child-align: middle;
+    clear: both;
+}
+#image {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 150px;
+    height: 150px;
+    background-image: url("Images/lissmoss.gif");
+    background-repeat: no-repeat;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: 100% 100%;
+    border-color: #663504;
+    display:inline;
+    position:inherit;
+    float:left;
+    -webkit-border-radius: 75px 75px 75px 0;
+    -moz-border-radius: 75px 75px 75px 0;
+    border-radius: 75px 75px 75px 0;
+}
+#nav a:hover {
+    border-bottom: thick #E9E5D1 double;
+    color: #17bbef;
+    font-size: 110%;
+
+    font-style: normal;
+}
+#nav li {
+    font-family: 'LibHandDisRegular', Arial, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 110%;
+    background-color: #474766;
+    display: inline;
+    position: relative;
+    float: none;
+    height:100%;
+    width:100%;
+    padding-left: 2px;
+    widows: inherit;
+}
+#nav ul {
+    border-color: yellow;
+    border-width: thick;
+    border-style: hidden;
+    background-color: #474766;
+    position: relative;
+    height:100%;
+    width:100%;
+    font-size:150%;
+    display: inline-block;
+
+}
+#nav a {
+    text-decoration: none;
+    color: #F6E1E5;
+    font-style: italic;
+    background-color: #474766;
+
+}
+#nav
+{
+    border-color: #474766;
+    background-color: #474766;
+    -webkit-border-radius: 35px 10px 35px;
+    -moz-border-radius: 35px 10px 35px;
+    border-radius: 35px 10px 35px;
+    clear:both;
+    float:right;
+    width:90%;
+    height:10%;
+    overflow: hidden;
+
+}
+
+#footer {
+    margin:auto;
+    padding:10px;
+    text-align: center;
+    align-content: right   ;
+    height:auto;
+    display:block;
+  }
+
