@@ -33,7 +33,7 @@ var errorMessages ="";  // All the error messages are going to stay in this vari
 
 /*********** VALIDATES USERNAME ******** */
 if (myContact.userName.value.length > 0 &&
-    myContact.userName.value.length < 15)
+    myContact.userName.value.length < 20)
     validUsername =true;
 else
     errorMessages += "<p>The username must be less than 15 characters</p>";
