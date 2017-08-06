@@ -10,32 +10,32 @@
 <body>
 <h1>CONTACT US FORM</h1><div id="errorMessages">
 <!--Add the URL to your Thank you page -->
-<form action="../../Pages/Artifacts/thankyou.html" method="get">
+<form action="../../Pages/Artifacts/thankyou.html" method="get" name="myContact" onSubmit="return ValidateForm();">
     <fieldset>
         <legend>User Information</legend>
-        <label for="firstname">Enter Firstname (Max 20 characters) </label>
+        <label for="FirstName">Enter Firstname (Max 20 characters) </label>
         <br>
-        <input type="text" id="firstname">
+        <input type="text" id="FirstName">
         <br>
-        <label for="lastname">Enter Lastname (Max 50 characters) </label>
+        <label for="LastName">Enter Lastname (Max 50 characters) </label>
         <br>
-        <input type= "text" id="lastname">
+        <input type= "text" id="LastName">
         <br>
-        <label for="email">Enter Email</label>
+        <label for="Email">Enter Email</label>
         <br>
-        <input type="text" id="email">
+        <input type="text" id="Email">
         <br>
-        <label for="phone">Enter Phone Number (Max 15 Characters) </label>
+        <label for="Phone">Enter Phone Number (Max 15 Characters) </label>
         <br>
-        <input type="text" id="phone">
+        <input type="text" id="Phone">
         <br>
-        <label for="username">Enter Username (Max 12 Characters)</label>
+        <label for="Username">Enter Username (Max 12 Characters)</label>
         <br>
-        <input type="text" maxlength="12" id="username">
+        <input type="text" maxlength="12" id="Username">
         <br>
-        <label for="password">Enter Password (Max 7 Characters)</label>
+        <label for="UserPassword">Enter UserPassword (Max 7 Characters)</label>
         <br>
-        <input type="password" maxlength="7" id="password">
+        <input type="UserPassword" maxlength="7" id="UserPassword">
 
     </fieldset>
     <fieldset>
@@ -44,28 +44,27 @@
         <br>
         <input type="text" name="address" id="address" size="50">
         <br>
-        <label for="city">Enter City</label>
+        <label for="City">Enter City</label>
         <br>
-        <input type="text" name="city" id="city">
+        <input type="text" name="City" id="City">
         <br>
-        <label for="countries">Choose Country</label>
+        <label for="Country">Choose Country</label>
         <br>
-        <select id="countries">
+        <select id="Country">
             <option>Canada</option>
             <option>Mexico</option>
             <option>United States</option>
         </select>
         <br>
-        <label for="zipcode">Enter zipcode</label>
+        <label for="ZipCode">Enter ZipCode</label>
         <br>
-        <input type="text" name="zip" id="zipcode">
+        <input type="text" name="ZipCode" id="ZipCode">
     </fieldset>
 
     <fieldset>
         <legend>Feel free to add comments</legend>
         <textarea name="commentbox" id="commentbox" rows="4" cols="50"></textarea>
     </fieldset>
-
     <br>
     <input id="submit" type="submit" value="Submit">
     <input id="cancel" type="submit" value="Cancel">
@@ -81,4 +80,3 @@
 
     </div></div></body>
 </html>
-l>
