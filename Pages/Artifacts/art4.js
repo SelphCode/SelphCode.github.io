@@ -9,8 +9,8 @@ function ValidateForm(myContact){
     var validCity = false;
     var validCountry =false;
     var validZipcode = false;
-    var letters = /^[A-Za-z]]/;
-    var numbers = /^[0-9]/;
+    var letters = /^[A-Za-z]+$/;
+    var numbers = /^[0-9]+$/;
     var email= /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
         var errorMessages ="";  // All the error messages are going to stay in this variable
@@ -122,5 +122,5 @@ function ValidateForm(myContact){
     document.getElementById("errorMessages").innerHTML = errorMessages;
 // Make sure you return all the boolean variables that are checking each field
     return (validFirstname && validLastname &&validUsername && validUserPassword &&
-        validEmail && validPhone && validAddress && validCity&& validZipcode&&validCountry) ;
+        validEmail && validPhone && validAddress && validCity && validZipcode && validCountry) ;
 }
