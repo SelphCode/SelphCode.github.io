@@ -8,20 +8,24 @@ function ValidateForm(){
 // You can also use document.getElementById("id-of-field").value
 
     /*********** VALIDATES USERNAME ******** */
-    if (myContact.userName.value.length > 0 &&
-        myContact.userName.value.length < 15)
-        validUsername =true;
+    if (myContact.username.value.length > 12 ||
+            myContact.username.value ===null ||
+            myContact.username.value ==="")
+        errorMessages += "<p>The username must be less than 12 characters</p>";
     else
-        errorMessages += "<p>The username must be less than 15 characters</p>";
-    console.log(validUsername);
+        validUsername =true;
+
+    //console.log(validUsername);
+
     /*********** VALIDATES PASSWORD ******** */
-    if (myContact.userPassword.value==null ||
-        myContact.userPassword.value== "" ||
+    if (myContact.userPassword.value===null ||
+        myContact.userPassword.value=== "" ||
         myContact.userPassword.value.length >15)
         errorMessages += "<p>The password must be less than 15 characters and it is required</p>";
     else
         validUserPassword = true;
+
     document.getElementById("errorMessages").innerHTML = errorMessages;
 // Make sure you return all the boolean variables that are checking each field
-    return (validUsername && validUserPassword) ;
+    return (validUsername && validUserpassword) ;
 }
