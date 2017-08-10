@@ -11,6 +11,8 @@ function ValidateForm(myContact) {
     var validCity = false;
     var validCountry =false;
     var validZipcode = false;
+    var email =  /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/
+
 
     // All the error messages are going to stay in this variable
 
@@ -41,7 +43,7 @@ function ValidateForm(myContact) {
     else
         validLastname =true;
 
-    if(myContact.Firstname.value.match("[a-zA-Z]+"))
+    if(myContact.Lastname.value.match("[a-zA-Z]+"))
 
 
         validLastnameType = true;
@@ -51,9 +53,7 @@ function ValidateForm(myContact) {
         errorMessages += "<p>The last name must be alphabetic characters and this is required.</p>";
 
     /*********** VALIDATES Email ******** */
-    if (myContact.Email.value === ""||
-        myContact.Email.value === null ||
-        myContact.Email.value.length > 7)
+    if (myContact.Email.value.match("email"))
 
         errorMessages += "<p>The Email must be less than 7 characters and it is required</p>";
     else

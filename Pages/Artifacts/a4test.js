@@ -1,8 +1,8 @@
 ]        // Form validation code will come here.
-        function validate()
+        function validate(myForm)
         {
 
-            if( document.myForm.Name.value == "" )
+            if( document.myForm.Name.value === "" )
             {
                 alert( "Please provide your name!" );
                 document.myForm.Name.focus() ;
