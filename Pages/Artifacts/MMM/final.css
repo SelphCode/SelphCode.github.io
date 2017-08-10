@@ -4,7 +4,7 @@
 }
 
 body {
-    font-size: 50%;
+    font-size: 150%;
     width:100%;
 }
 
@@ -17,7 +17,7 @@ h1 {
 }
 h2 {
     font-family: 'GlacialIndifferenceRegular', Arial, Verdana, sans-serif;
-    font-size:35px;
+    font-size:25px;
     border-top-style: dotted;
     border-top-color: #000000;
 
