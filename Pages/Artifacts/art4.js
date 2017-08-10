@@ -11,7 +11,8 @@ function ValidateForm(myContact) {
     var validCity = false;
     var validCountry =false;
     var validZipcode = false;
-
+    var email = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/
+    var phone = /^[0-9]+$/
     // All the error messages are going to stay in this variable
 
     var errorMessages = "";
@@ -41,7 +42,7 @@ function ValidateForm(myContact) {
     else
         validLastname =true;
 
-    if(myContact.Firstname.value.match("[a-zA-Z]+"))
+    if(myContact.Lastname.value.match("[a-zA-Z]+"))
 
 
         validLastnameType = true;
@@ -52,26 +53,41 @@ function ValidateForm(myContact) {
 
     /*********** VALIDATES Email ******** */
     if (myContact.Email.value === ""||
-        myContact.Email.value === null ||
-        myContact.Email.value.length > 7)
+        myContact.Email.value === null)
 
-        errorMessages += "<p>The Email must be less than 7 characters and it is required</p>";
+        errorMessages += "<p>The Email is required</p>";
     else
         validEmail = true;
+
+    if (myContact.Email.value.match(email))
+
+        validEmail = true;
+
+    else
+
+    errorMessages += "<p>The email must be in the required format. <em>youremailaddress@hostname.com</em></p>";
+
 
     console.log(validEmail);
 
     /*********** VALIDATES Phone ******** */
     if (myContact.Phone.value.length > 7 ||
-        myContact.Phone.value === null ||
-        myContact.Phone.value === "")
-        errorMessages += "<p>The Phone must be less than 7 characters and it is required</p>";
+        myContact.Phone.value === null)
+
+        errorMessages += "<p>The Phone is required</p>";
     else
         validPhone = true;
 
+    if (myContact.Phone.value.match(phone))
+
+    validPhone = true;
+else
+    errorMessages += "<p>Use all numeric characters to input Phone</p>";
+
+
     console.log(validPhone);
 
-    /*********** VALIDvalidUsername ******** */
+    /*********** VALIDUsername ******** */
     //Required field
 //This syntax is using name-of-form.name-of-field.value
 // You can also use document.getElementById("id-of-field").value
@@ -98,9 +114,8 @@ function ValidateForm(myContact) {
 
     /*********** VALIDATES Address ******** */
     if (myContact.Address.value === null ||
-        myContact.Address.value === "" ||
-        myContact.Address.value.length > 7)
-        errorMessages += "<p>The Address must be less than 7 characters and it is required</p>";
+        myContact.Address.value === "")
+        errorMessages += "<p>The Address is required</p>";
     else
         validAddress=true;
 
@@ -111,7 +126,7 @@ function ValidateForm(myContact) {
         myContact.City.value === "" ||
         myContact.City.value.length > 7)
 
-        errorMessages += "<p>The City must be less than 7 characters and it is required</p>";
+        errorMessages += "<p>The City is required</p>";
     else
         validCity=true;
 
@@ -125,10 +140,12 @@ function ValidateForm(myContact) {
     else
         validZipcode = true;
 
-    if (myContact.Country.value === "United States" && myContact.Zipcode.value === "")
-        errorMessages +="<p>Zip code required for US addresses</p>";
+    if (myContact.Country.value === ("United States") && myContact.Zipcode.value === "")
+
+        errorMessages +="<p>Zip code required for United States addresses</p>";
     else
         validZipcode = true;
+
     document.getElementById("errorMessages").innerHTML = errorMessages;
 
     /*********** VALIDATES Country ******** */
