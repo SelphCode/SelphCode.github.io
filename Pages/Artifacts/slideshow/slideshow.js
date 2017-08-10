@@ -1,7 +1,7 @@
 var myImages =["../../../Pages/Artifacts/images/drbronnerlogo.gif", "../../../Pages/Artifacts/images/outlaslonglogo.png","../../../Pages/Artifacts/images/unseenlogo.png","../../../Pages/Artifacts/images/black-queen.png","../../../Pages/Artifacts/images/debate.png"];
 
 
-var captionImages =["Great soap, great coconut oil, and a worldly and philsophical label","Who needs an atlas? Use the web! We need maps of society? Use the Outlas.","Do you believe that more people are enslaved today than ever before? Want to be convinced?","protect the pawns","What's better? Trying tangibly."];
+var captionImages =["Have you seen the labels?","Who needs an atlas? Use the Outlas.","Raise voices against global slavery","protect all the pieces","weighty matters"];
 
 var index=0;
 
