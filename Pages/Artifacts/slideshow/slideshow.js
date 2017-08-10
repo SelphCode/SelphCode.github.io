@@ -42,4 +42,4 @@ function autoSlide(){
 }
 
 
-setInterval(autoSlide,1000); // Next
+setInterval(autoSlide,2500); // Next
