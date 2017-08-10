@@ -1,5 +1,5 @@
 
-        First name:  Required.  Should accept only alphabetical value, maximum 20 characters
+        **First name:  Required.  Should accept only alphabetical value, maximum 20 characters
         Last name:  Required.  Should accept only alphabetical value, maximum 50 characters
         Email address:  Required.  Use the below function to verify that the email address is well formed.  Changed names of fields according to your form:
 
@@ -12,6 +12,12 @@ function validateEmail() {
         return false;
     }
 }
+<label>Enter your Username (max 15)
+        <input type="text" name="Username" size="15"></label>
+    <br>
+    <label>Enter your Userpassword (max 15)<br>
+        <input type="text" name="Userpassword" size="15"></label>
+
 
         Phone Number:  Required.  Should accept only NUMERICAL values.  Maximum 15 digits.  (Don't worry about format)
         Username:  Required.  Maximum 12 characters.
@@ -25,3 +31,28 @@ function validateEmail() {
     You must validate or your fields during form submission.  If the data entry is correct, then you should show the Thank You page, otherwise, you show either errors by field or a message when submitting the form (you can use alert())
     Your html must use an external JS file to validate the form.
     You code must pass the validators (please include the images with links to the validators at the bottom of your page)
+
+
+    document.getElementById("errorMessages").innerHTML = errorMessages;
+
+    document.getElementById("errorMessages").innerHTML = errorMessages;
+
+    document.getElementById("errorMessages").innerHTML = errorMessages;
+
+    document.getElementById("errorMessages").innerHTML = errorMessages;
+
+    document.getElementById("errorMessages").innerHTML = errorMessages;
+
+    document.getElementById("errorMessages").innerHTML = errorMessages;
+
+    document.getElementById("errorMessages").innerHTML = errorMessages;
+
+    document.getElementById("errorMessages").innerHTML = errorMessages;
+
+    document.getElementById("errorMessages").innerHTML = errorMessages;
+
+    document.getElementById("errorMessages").innerHTML = errorMessages;
+
+    document.getElementById("errorMessages").innerHTML = errorMessages;
+
+    document.getElementById("errorMessages").innerHTML = errorMessages;

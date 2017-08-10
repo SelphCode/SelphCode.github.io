@@ -1,155 +1,147 @@
-function ValidateForm(){
-    var validUserpassword = false;
-    var errorMessages ="";
+function ValidateForm(myContact) {
     var validFirstname = false;
+    var validFirstnameType = false;
     var validLastname = false;
+    var validLastnameType = false;
     var validEmail = false;
-    var validPhone= false;
+    var validPhone = false;
     var validUsername = false;
-    var validUserPassword = false;
+    var validUserpassword = false;
     var validAddress = false;
     var validCity = false;
     var validCountry =false;
     var validZipcode = false;
-    var letters = /^[A-Za-z]+$/;
-    var numbers = /^[0-9]+$/;
-    var email= /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-
 
     // All the error messages are going to stay in this variable
-    /*********** VALIDATES USERNAME ******** */
-    //Required field
-//This syntax is using name-of-form.name-of-field.value
-// You can also use document.getElementById("id-of-field").value
 
-    /*********** VALIDATES USERNAME ******** */
-    if (myContact.Username.value.length > 0 &&
-        myContact.Username.value.length > 15 ||
-        myContact.Username.value === "" ||
-        myContact.Username.value === null)
+    var errorMessages = "";
+    /*********** VALIDATES Firstname ******** *
+     * May not be empty string, blank, or more than 20 chars */
 
-    errorMessages += "<p>The name must be less than 15 characters and it is required</p>";
+    if (myContact.Firstname.value ===null ||
+        myContact.Firstname.value ==="" ||
+        myContact.Firstname.value.length > 20)
 
-else
-    validUsername =true;
-
-   // console.log(validUsername);
-    /*********** VALIDATES PASSWORD ******** */
-    if (myContact.Userpassword.value === null ||
-        myContact.Userpassword.value === "" ||
-        myContact.Userpassword.value.length > 15)
-        errorMessages += "<p>The word must be less than 15 characters and it is required</p>";
+        errorMessages += "<p>The first name must be less than 20 alphabetic characters and it is required.</p>";
     else
-        validUserpassword = true;
+        validFirstname = true;
 
-    // document.getElementById("errorMessages").innerHTML = errorMessages;
-// Make sure you return all the boolean variables that are checking each field
+    if(myContact.Firstname.value.match("[a-zA-Z]+"))
 
-    /*********** VALIDATES FIRSTNAME ******** */
-    if (myContact.firstname.value.length > 20 ||
-        myContact.firstname.value ===null ||
-        myContact.firstname.value ==="" ||
-        !myContact.firstname.value.match(letters))
-        errorMessages += "<p>The first name must be less than 20 alphabetic and it is required</p>";
+        validFirstnameType = true;
     else
-        validFirstname =true;
+        errorMessages += "<p>The first name must be alphabetic characters and this is required.</p>";
 
-    //console.log(validFirstname);
+    /*********** VALIDATES Lastname ******** */
+    if (myContact.Lastname.value === null ||
+        myContact.Lastname.value === ""||
+        myContact.Lastname.value.length > 50)
 
-    /*********** VALIDATES LASTNAME ******** */
-    if (myContact.lastname.value.length > 50 ||
-        myContact.lastname.value ===null ||
-        myContact.lastname.value ===""||
-        !myContact.lastname.value.match(letters))
         errorMessages += "<p>The last name must be less than 50 characters and it is required</p>";
     else
         validLastname =true;
 
-    //console.log(validUsername);
-
-    /*********** VALIDATES EMAIL ******** */
+    if(myContact.Firstname.value.match("[a-zA-Z]+"))
 
 
-    if (myContact.email.value.length > 7 ||
-        myContact.email.value===null ||
-        myContact.email.value ===""||
-        !myContact.email.value.match(email))
-        errorMessages += "<p>The email must be less than 7 characters and it is required</p>";
+        validLastnameType = true;
+
     else
-        validEmail =true;
 
-    /*********** VALIDATES PHONE ******** */
-    if (myContact.phone.value.length > 7 ||
-        myContact.phone.value===null ||
-        myContact.phone.value ===""||
-        !myContact.phone.value.match(numbers))
-        errorMessages += "<p>The phone must be less than 7 characters and it is required</p>";
+        errorMessages += "<p>The last name must be alphabetic characters and this is required.</p>";
+
+    /*********** VALIDATES Email ******** */
+    if (myContact.Email.value === ""||
+        myContact.Email.value === null ||
+        myContact.Email.value.length > 7)
+
+        errorMessages += "<p>The Email must be less than 7 characters and it is required</p>";
     else
-        validPhone =true;
+        validEmail = true;
 
-    /*********** VALIDATES USERNAME ******** */
+    console.log(validEmail);
+
+    /*********** VALIDATES Phone ******** */
+    if (myContact.Phone.value.length > 7 ||
+        myContact.Phone.value === null ||
+        myContact.Phone.value === "")
+        errorMessages += "<p>The Phone must be less than 7 characters and it is required</p>";
+    else
+        validPhone = true;
+
+    console.log(validPhone);
+
+    /*********** VALIDvalidUsername ******** */
     //Required field
 //This syntax is using name-of-form.name-of-field.value
 // You can also use document.getElementById("id-of-field").value
 
-    /*********** VALIDATES USERNAME ******** */
-    if (myContact.Username.value.length > 12 ||
-        myContact.Username.value ===null ||
-        myContact.Username.value ===""||
-        !myContact.Username.value.match(letters))
-        errorMessages += "<p>The username must be less than 12 characters and it is required</p>";
+    /*********** VALIDates Username ******** */
+    if (myContact.Username.value === "" ||
+        myContact.Username.value === null ||
+        myContact.Username.value.length > 12)
+        errorMessages += "<p>Username must be less than 12 characters and it is required</p>";
     else
         validUsername =true;
 
-    //console.log(validUsername);
+    console.log(validUsername);
 
     /*********** VALIDATES PASSWORD ******** */
-    if (myContact.password.value.length > 7 ||
-        myContact.password.value=== "" ||
-        myContact.password.value===null)
+    if (myContact.Userpassword.value === null ||
+        myContact.Userpassword.value === "" ||
+        myContact.Userpassword.value.length > 7 )
         errorMessages += "<p>The password must be less than 7 characters and it is required</p>";
     else
-        validUserPassword=true;
+        validUserpassword=true;
 
-    /*********** VALIDATES ADDRESS ******** */
-    if (myContact.address.value===null ||
-        myContact.address.value=== "" ||
-        myContact.address.value.length > 7)
-        errorMessages += "<p>The address must be less than 7 characters and it is required</p>";
+    console.log(validUserpassword);
+
+    /*********** VALIDATES Address ******** */
+    if (myContact.Address.value === null ||
+        myContact.Address.value === "" ||
+        myContact.Address.value.length > 7)
+        errorMessages += "<p>The Address must be less than 7 characters and it is required</p>";
     else
         validAddress=true;
 
-    /*********** VALIDATES CITY ******** */
-    if (myContact.city.value===null ||
-        myContact.city.value=== "" ||
-        myContact.city.value.length > 7)
+    console.log(validAddress);
 
-        errorMessages += "<p>The city must be less than 7 characters and it is required</p>";
+    /*********** VALIDATES City ******** */
+    if (myContact.City.value ===null ||
+        myContact.City.value === "" ||
+        myContact.City.value.length > 7)
+
+        errorMessages += "<p>The City must be less than 7 characters and it is required</p>";
     else
         validCity=true;
 
+    document.getElementById("errorMessages").innerHTML = errorMessages;
 
 
-    /*********** VALIDATES ZIPCODE ******** */
-    if (myContact.zipcode.value===null ||
-        myContact.zipcode.value=== "" ||
-        myContact.zipcode.value.length > 7)
+    /*********** VALIDATES Zipcode ******** */
+    if (myContact.Zipcode.value.length > 5)
 
-        errorMessages += "<p>The zipcode must be less than 5 characters and it is required</p>";
+        errorMessages += "<p>The Zipcode must be less than 5 characters</p>";
     else
-        validZipcode=true;
+        validZipcode = true;
 
-    /*********** VALIDATES COUNTRY ******** */
-    if (myContact.country.value===null ||
-        myContact.country.value=== "" ||
-        myContact.country.value.length > 7)
-
-        errorMessages += "<p>The country must be less than 7 characters and it is required</p>";
+    if (myContact.Country.value === "United States" && myContact.Zipcode.value === "")
+        errorMessages +="<p>Zip code required for US addresses</p>";
     else
-        validCountry=true;
+        validZipcode = true;
+    document.getElementById("errorMessages").innerHTML = errorMessages;
+
+    /*********** VALIDATES Country ******** */
+    if (myContact.Country.value === null ||
+        myContact.Country.value === "Select a Country..." )
+
+        errorMessages += "<p>The Country is required</p>";
+    else
+        validCountry = true;
+
+// Make sure you return all the boolean variables that are checking each field
 
     document.getElementById("errorMessages").innerHTML = errorMessages;
-// Make sure you return all the boolean variables that are checking each field
-    return (validFirstname && validLastname && validUsername && validUserPassword &&
-        validEmail && validPhone && validAddress && validCity && validZipcode && validCountry) ;
+
+    return (validFirstname && validFirstnameType && validLastname && validLastnameType && validUsername && validUserpassword && validEmail && validPhone && validAddress && validCity && validZipcode && validCountry);
 }

@@ -3,71 +3,75 @@
 <head>
     <meta name="description" content="Artifact #4 - Form Validation">
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="final.css" />
 
     <title>Artifact #4</title>
 </head>
 <body>
 <br>
-<h1>CONTACT US FORM</h1>
-<br>    <div id="errorMessages"></div>
+<h2>CONTACT FORM</h2>
+<br>
 
 <!--Add the URL to your Thank you page -->
-<form action="thankyou.html" name="myContact" onsubmit="return ValidateForm();">
+    <br><div id="errorMessages"></div>
 
-<br>
-    <label>Enter your Username (max 15)
-        <input type="text" name="Username" size="15"></label>
-    <br>
-    <label>Enter your password (max 15)<br>
-        <input type="text" name="Userpassword" size="15"></label>
-    <input type="submit" value="Validate Form">
+<form name="myContact" action="../../../Pages/Contact/ty.html" onsubmit="return ValidateForm(myContact)">
 
     <fieldset>
             <legend>User Information</legend>
-            <label for="firstname">Enter Firstname (Max 20 characters) </label>
+            <label for="Firstname">Enter Firstname (Max 20 characters) </label>
             <br>
-            <input type="text" maxlength="20" name ="firstname" id="firstname">
+            <input type="text" maxlength="20" name ="Firstname" id="Firstname">
             <br>
-            <label for="lastname">Enter Lastname (Max 50 characters) </label>
+            <label for="Lastname">Enter Lastname (Max 50 characters) </label>
             <br>
-            <input type="text" name="lastname" maxlength="50" id="lastname">
+            <input type="text" name="Lastname" maxlength="50" id="Lastname">
             <br>
-            <label for="email">Enter Email</label>
+            <label for="Email">Enter Email</label>
             <br>
-            <input type="text" name="email" maxlength="60" id="email">
+            <input type="text" name="Email" maxlength="60" id="Email">
             <br>
-            <label for="phone">Enter Phone Number (Max 15 Characters) </label>
+            <label for="Phone">Enter Phone Number (Max 15 Characters) </label>
             <br>
-            <input type="text" maxlength="15" name="phone" id="phone">
+            <input type="text" maxlength="15" name="Phone" id="Phone">
             <br>
             <label for="Username">Enter Username (Max 12 Characters)</label>
             <br>
-            <input type="text" name="username" maxlength="12" id="Username">
+            <input type="text" name="Username" maxlength="12" id="Username">
             <br>
-            <label for="Userpassword">Enter Password (Max 7 Characters)</label>
+            <label for="Userpassword">Enter Userpassword (Max 7 Characters)</label>
             <br>
             <input type="text" name="Userpassword" maxlength="7" id="Userpassword">
 
         </fieldset>
         <fieldset>
             <legend>Current Address</legend>
-            <label for="address">Enter Address</label>
+            <label for="Address">Enter Address</label>
             <br>
-            <input type="text" name="address" id="address" size="50">
+            <input type="text" name="Address" id="Address" size="50">
             <br>
             <label for="City">Enter City</label>
             <br>
             <input type="text" name="city" id="City">
             <br>
 
-            <label for="zipcode">Enter zipcode</label>
+            <label for="Zipcode">Enter Zipcode</label>
             <br>
-            <input type="text" name="zipcode" id="zipcode">
+            <input type="text" name="Zipcode" id="Zipcode">
             <br>
 
-            <label for="country">Enter country</label>
+            <select id="Country">
+
+                <option value="Select a Country..." selected="selected">Select a Country...</option>
+
+                <option value="Burma">Burma</option>
+
+                <option value="Bulgaria">Bulgaria</option>
+
+                <option value="Kashmir">Kashmir</option>
+
+                <option value="United States">United States</option>    </select>
             <br>
-            <input type="text" name="country" id="country">
             <br>
         </fieldset>
 
@@ -77,7 +81,7 @@
         </fieldset>
 
         <br>
-        <input id="Validate Form" type="submit" value="Validate Form">
+        <input id="submit" type="submit" value="Submit">
         <input id="cancel" type="submit" value="Cancel">
     </form>
     <script src="art4.js" type="text/javascript" ></script>
@@ -88,11 +92,10 @@
         <a href="https://jigsaw.w3.org/css-validator/check/referer">
             <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
         </a>
+        <script src="art4.js" type="text/javascript" ></script>
+
     </footer>
 
     </body>
-    <script src="art4.js" type="text/javascript" ></script>
 
     </html>
-</body>
-</html>
